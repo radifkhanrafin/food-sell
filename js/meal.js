@@ -17,7 +17,7 @@ const displayData = (meals) => {
       <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">${meal.strMeal}</h5>
-      <p class="card-text h-100 overflow-hidden">${meal.strTags}</p>
+      <p class="card-text h-100 overflow-hidden">${meal.strArea}</p>
       <button onclick="detailsMeal(${meal.idMeal})" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mealDetail">
       Details
      </button>
